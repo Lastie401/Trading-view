@@ -117,7 +117,6 @@
     "yargs": "17.7.2"
   },
   "scripts": {
-    "postinstall": "node scripts/githooks/install.js",
     "install-hooks": "node scripts/githooks/install.js",
     "clean": "rimraf lib/ dist/",
     "clean:build-info": "rimraf lib/prod/.tsbuildinfo",
