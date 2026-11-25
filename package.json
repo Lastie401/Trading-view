@@ -1,3 +1,4 @@
+
 {
   "private": true,
   "version": "5.2.1",
@@ -117,7 +118,6 @@
     "yargs": "17.7.2"
   },
   "scripts": {
-    "install-hooks": "node scripts/githooks/install.js",
     "clean": "rimraf lib/ dist/",
     "clean:build-info": "rimraf lib/prod/.tsbuildinfo",
     "bundle-dts": "dts-bundle-generator --config dts-config.json",
